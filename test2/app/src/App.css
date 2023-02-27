@@ -1,0 +1,80 @@
+nav {
+  height: 15vh;
+  width: 100%;
+  background-color: rgb(5, 27, 92);
+  color: rgb(241, 235, 235);
+  /* margin-bottom: 20px; */
+}
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navitems h2 {
+  font-size: 20px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1.5em;
+}
+
+.navitems button {
+  width: 10%;
+  height: 8vh;
+  border: 3px solid black;
+  border-radius: 40px;
+  background-color: #5cd814;
+  font-family: serif;
+  font-size: 20px;
+  margin: 34px 212px;
+}
+
+.fetchbtn:hover {
+  background-color: rgb(226, 244, 88);
+  cursor: pointer;
+  color: rgb(11, 16, 21);
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  
+}
+body{
+  background-color: rgba(218, 196, 162, 0.783);
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  /* padding-top: 10vh; */
+}
+.name:hover {
+  cursor: pointer;
+  color: rgb(12, 12, 215);
+}
+
+.avatar {
+  border-radius: 60%;
+}
+
+.profile_cont {
+  border-radius:0%;
+  background-image: linear-gradient(to top, #0a3d8b, #9e3b93, #ef4970, #ff8a3a, #ebd812);
+   margin: 20px;
+   border-radius: 20px;
+  padding: 20px;
+  width: 25%;
+  height: 40vh;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 0.8;
+  margin-top: 10vh;
+}
+
+.profile_cont:hover {
+  transform: translate(0, -50px);
+  transition-duration: 0.8;
+  opacity: 1;
+  cursor: pointer;
+}
